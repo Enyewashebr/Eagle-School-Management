@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Menu = () => {
+const Navbar = () => {
   return (
     <div>
-      Menu
+      Navbar
     </div>
   )
 }
 
-export default Menu
+export default Navbar

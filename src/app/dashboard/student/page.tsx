@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Menu = () => {
+const StudentPage = () => {
   return (
     <div>
-      Menu
+      
     </div>
   )
 }
 
-export default Menu
+export default StudentPage
+
