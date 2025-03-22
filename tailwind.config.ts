@@ -13,7 +13,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      colors:{
+      colors: {
         lamaSky: "#C3EBFA",
         lamaSkyLight: "#EDF9FD",
         lamaPurple: "#CFCEFF",
@@ -22,7 +22,14 @@ const config: Config = {
         lamaYellowLight: "#FEFCE8",
         lamaBlue: "#C3EBFA",
       },
-     },
+      screens: {
+        sm: "520px", // Small screens (mobile)
+        md: "720px", // Medium screens (tablets)
+        lg: "1024px", // Large screens (laptops)
+        xl: "1280px", // Extra large screens (desktops)
+        "2xl": "1536px", // Bigger desktops
+      },
+    },
   },
   plugins: [],
 };
