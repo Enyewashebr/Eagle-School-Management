@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Eagle School Management Dashboard",
   description: "Next.js School Management System",
+  icons: "/logo.png", // Correct way to specify the favicon
 };
 
 export default function RootLayout({
